@@ -9,7 +9,15 @@ function caesarCipher(string, number) {
     let letterOutcome;
 
     // if string is in capital letter, output should also be in capital letter
-    //if (element.toUpperCase() === element) {}
+    /*if (element.toUpperCase() === element) {
+      alphabet.forEach((letter) => {
+        letter.toUpperCase();
+      });
+    } else {
+      alphabet.forEach((letter) => {
+        letter.toLowerCase();
+      });
+    }*/
 
     if (newPosition > 25) {
       // 25 in this case stands for the last index (position) in alphabet array
